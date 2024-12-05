@@ -32,5 +32,3 @@ hadoop jar "%HADOOP_HOME%\share\hadoop\tools\lib\hadoop-streaming-3.2.3.jar" -ma
 hadoop fs -ls output
 
 hadoop fs -cat output/part-00000
-
-hadoop fs -rm -r output # Membersihkan output
